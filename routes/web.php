@@ -27,4 +27,4 @@ Route::post('/post-like',[App\Http\Controllers\HomeController::class, 'postLike'
 //Добавление задачи пользователю
 Route::post('/add_to_do',[App\Http\Controllers\HomeController::class, 'add_to_do']);
 
-Route::post('/add_to_do',[App\Http\Controllers\HomeController::class, 'add_to_do_user']);
+Route::post('/add_to_do_group',[App\Http\Controllers\HomeController::class, 'add_to_do_group']);
